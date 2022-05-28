@@ -68,6 +68,6 @@ public class GameManager : Singleton<GameManager>
     }
 
     public void countDown() {
-        currentTime -= Time.deltaTime + 5;
+        currentTime -= Time.deltaTime;
     }
 }
