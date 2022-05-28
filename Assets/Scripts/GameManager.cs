@@ -21,8 +21,10 @@ public class GameManager : Singleton<GameManager>
     void Update()
     {
         if (level.hasWon() && currentTime > 0) {
-            if (SceneManager.GetActiveScene() != null && !SceneManager.GetActiveScene().name.Equals("Instruction Scene"))
+            if (SceneManager.GetActiveScene() != null && !SceneManager.GetActiveScene().name.Equals("Instruction Scene")) {
                 levelPassedCount++;
+                SoundManager.Instance.AudioSpeed = Mathf.Min(SoundManager.Instance.AudioSpeed+0.2f, 2.0f);
+            }
             level.won();
         }
 

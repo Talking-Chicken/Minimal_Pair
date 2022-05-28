@@ -7,21 +7,21 @@ public class SoundManager : Singleton<SoundManager>
 {
     public AudioSource UIAudioSource, BGMAudioSource;
     [SerializeField] private AudioMixerGroup pitchBendGroup;
-    private float audioSpeed = 2.0f;
+    private float audioSpeed = 1.0f;
     [SerializeField] private AudioClip tickTock;
 
     public float AudioSpeed {get=>audioSpeed; set=>audioSpeed=value;}
     void Start()
     {
         UIAudioSource.outputAudioMixerGroup = pitchBendGroup;
-        UIAudioSource.pitch = AudioSpeed;
-        pitchBendGroup.audioMixer.SetFloat("PitchBend", 1f / AudioSpeed);
+        
     }
 
     
     void Update()
     {
-        
+        UIAudioSource.pitch = AudioSpeed;
+        pitchBendGroup.audioMixer.SetFloat("PitchBend", 1f / AudioSpeed);
     }
 
     public void playUISound(AudioClip audioClip) {
