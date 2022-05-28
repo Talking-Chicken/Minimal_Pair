@@ -21,3 +21,13 @@ MonoBehaviour:
       clip: {fileID: 8300000, guid: 5fe1ffbddce94a7499955cea89e44021, type: 3}
     - audioName: They
       clip: {fileID: 8300000, guid: e8b3f55e7558bb44a9c249656df08959, type: 3}
+  - levelName: Game1_2
+    pairs:
+    - audioName: Hit
+      clip: {fileID: 8300000, guid: 11c6b2e32db282e49ad3802b696104c7, type: 3}
+    - audioName: Crip
+      clip: {fileID: 8300000, guid: 323b0dfb3dcb2564f8dd58d7d1cf142e, type: 3}
+    - audioName: Seat
+      clip: {fileID: 8300000, guid: 82cc82ca7bbf38a4db74396dd6367efd, type: 3}
+    - audioName: Beat
+      clip: {fileID: 8300000, guid: 7b911898b214f0d469747dbacbb3aa8d, type: 3}
