@@ -13,8 +13,7 @@ public class SoundManager : Singleton<SoundManager>
     public float AudioSpeed {get=>audioSpeed; set=>audioSpeed=value;}
     void Start()
     {
-        UIAudioSource.outputAudioMixerGroup = pitchBendGroup;
-        
+        UIAudioSource.outputAudioMixerGroup = pitchBendGroup;        
     }
 
     

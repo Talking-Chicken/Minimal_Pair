@@ -258,107 +258,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 409704873}
   m_CullTransparentMesh: 1
---- !u!1 &514975924 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4165962277736626670, guid: e1aeae3f0f48e2744b159b4eceb0b65e, type: 3}
-  m_PrefabInstance: {fileID: 1568093622}
-  m_PrefabAsset: {fileID: 0}
---- !u!82 &514975929
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 514975924}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &947563302
 GameObject:
   m_ObjectHideFlags: 0
@@ -699,8 +598,8 @@ RectTransform:
   m_GameObject: {fileID: 1381844162}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 2.38, y: 2.38, z: 2.38}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1870992820}
   m_Father: {fileID: 947563306}
@@ -897,21 +796,9 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4165962277736626577, guid: e1aeae3f0f48e2744b159b4eceb0b65e, type: 3}
-      propertyPath: tickTock
-      value: 
-      objectReference: {fileID: 8300000, guid: b13bc44cbadcc8b40a396a10f13313a4, type: 3}
-    - target: {fileID: 4165962277736626577, guid: e1aeae3f0f48e2744b159b4eceb0b65e, type: 3}
-      propertyPath: BGMAudioSource
-      value: 
-      objectReference: {fileID: 514975929}
-    - target: {fileID: 4165962277736626577, guid: e1aeae3f0f48e2744b159b4eceb0b65e, type: 3}
       propertyPath: pitchBendGroup
       value: 
       objectReference: {fileID: 24300002, guid: 59c9f541c793e644aa2cfec94304884b, type: 2}
-    - target: {fileID: 4165962277736626578, guid: e1aeae3f0f48e2744b159b4eceb0b65e, type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4165962277736626578, guid: e1aeae3f0f48e2744b159b4eceb0b65e, type: 3}
       propertyPath: OutputAudioMixerGroup
       value: 
@@ -1061,8 +948,8 @@ RectTransform:
   m_GameObject: {fileID: 1800408047}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 2.38, y: 2.38, z: 2.38}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1203572339}
   m_Father: {fileID: 947563306}

@@ -159,7 +159,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 1, y: 113}
-  m_SizeDelta: {x: 429.1282, y: 47.456802}
+  m_SizeDelta: {x: 680.4979, y: 91.1733}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &387494293
 MonoBehaviour:
@@ -190,8 +190,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4288717055
+  m_fontColor: {r: 1, g: 0.6289308, b: 0.6289308, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -208,8 +208,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26.89
-  m_fontSizeBase: 26.89
+  m_fontSize: 37.1
+  m_fontSizeBase: 37.1
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -361,7 +361,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 442.1891, y: 174.8091}
+  m_SizeDelta: {x: 647.1101, y: 213.061}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1545775997
 MonoBehaviour:
@@ -392,8 +392,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4288717055
+  m_fontColor: {r: 1, g: 0.6289308, b: 0.6289308, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -410,8 +410,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 71.8
+  m_fontSizeBase: 71.8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

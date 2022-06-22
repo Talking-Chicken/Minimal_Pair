@@ -62,6 +62,9 @@ public class GameManager : Singleton<GameManager>
             levelPassedCount = 0;
             SceneManager.LoadScene("Start Scene");
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+            Application.Quit();
     }
 
     public void specifyLevel(LevelBase level) {
