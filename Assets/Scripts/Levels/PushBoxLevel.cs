@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class PushBoxLevel : LevelBase
 {
-    
+    [SerializeField] private BlockHolder blockHolder;
     void Start()
     {
-        
+        SoundManager.Instance.playTimeSound();
     }
 
     
@@ -19,7 +19,7 @@ public class PushBoxLevel : LevelBase
 
     public override bool hasWon()
     {
-        return false;
+        return blockHolder.checkAllCharacterMatch();
     }
 
     public override void won()

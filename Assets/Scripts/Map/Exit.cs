@@ -7,7 +7,7 @@ public class Exit : MonoBehaviour
     private bool playerEntered = false;
     private SpriteRenderer sr;
     public bool PlayerEntered {get=>playerEntered;}
-    void Start()
+    public virtual void Start()
     {
         sr = GetComponent<SpriteRenderer>();
         if (sr != null)

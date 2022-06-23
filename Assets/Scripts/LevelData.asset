@@ -31,3 +31,15 @@ MonoBehaviour:
       clip: {fileID: 8300000, guid: 82cc82ca7bbf38a4db74396dd6367efd, type: 3}
     - audioName: Beat
       clip: {fileID: 8300000, guid: 7b911898b214f0d469747dbacbb3aa8d, type: 3}
+  - levelName: Game2_1
+    pairs:
+    - audioName: Hit
+      clip: {fileID: 8300000, guid: 11c6b2e32db282e49ad3802b696104c7, type: 3}
+  - levelName: Game2_2
+    pairs:
+    - audioName: Dose
+      clip: {fileID: 8300000, guid: 5fe1ffbddce94a7499955cea89e44021, type: 3}
+  - levelName: Game2_3
+    pairs:
+    - audioName: Crip
+      clip: {fileID: 8300000, guid: 323b0dfb3dcb2564f8dd58d7d1cf142e, type: 3}
