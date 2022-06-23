@@ -79,6 +79,25 @@ public class InstructionLevel : LevelBase
 
     /* both show text and play audios */
     public void showInstruction() {
+        switch (nextLevelName) {
+            case "Game1_1":
+            case "Game1_2":
+            case "Game1_3":
+                instruction = "Find The Way Out!";
+            break;
+
+            case "Game2_1":
+            case "Game2_2":
+            case "Game2_3":
+                instruction = "Push Box To Form Word!";
+            break;
+
+            case "Game3_1":
+            case "Game3_2":
+            case "Game3_3":
+                instruction = "Speel The Word And Wait!";
+            break;
+        }
         instructionText.text = instruction;
     }
 

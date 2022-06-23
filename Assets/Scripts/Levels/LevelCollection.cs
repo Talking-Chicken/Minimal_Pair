@@ -14,5 +14,10 @@ public class LevelCollection : ScriptableObject
         public List<PairsAudio> pairs;
     }
 
+    [Serializable]
+    public struct audioCollection {
+        public List<AudioClip> audioClips;
+    }
+
     public List<level> Levels;
 }

@@ -43,3 +43,7 @@ MonoBehaviour:
     pairs:
     - audioName: Crip
       clip: {fileID: 8300000, guid: 323b0dfb3dcb2564f8dd58d7d1cf142e, type: 3}
+  - levelName: Game3_1
+    pairs:
+    - audioName: There
+      clip: {fileID: 8300000, guid: ec0bc406a3736d64fa73c99a0e50dff3, type: 3}

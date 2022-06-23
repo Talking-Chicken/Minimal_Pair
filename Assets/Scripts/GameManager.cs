@@ -10,9 +10,9 @@ public class GameManager : Singleton<GameManager>
 {
     private LevelBase level;
     [SerializeField, BoxGroup("Time GUI")] private TextMeshProUGUI timeText, healthText;
-    private float currentTime;
+    public float currentTime;
     private int currentHealth = 3;
-    private int levelPassedCount = 0;
+    public int levelPassedCount = 0;
     void Start()
     {
         
