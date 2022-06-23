@@ -12,9 +12,11 @@ public class PairsAudio
 {
     [SerializeField, BoxGroup("Info")] private string audioName;
     [SerializeField, BoxGroup("Info")] private AudioClip clip;
+    [SerializeField, BoxGroup("Info")] private AudioClip[] clips;
 
     public string AudioName {get=>audioName;set=>audioName=value;}
     public AudioClip Clip {get=>clip;set=>clip=value;} 
+    public AudioClip[] Clips {get=>clips;set=>clips=value;}
     public PairsAudio() {
         AudioName = "no name yet";
         Clip = null;
@@ -51,12 +53,52 @@ public class InstructionLevel : LevelBase
         if (Input.GetKeyDown(KeyCode.Space) && !isStartedPlayingIntruction && !isAllAudioFinished)
             isStartedPlayingIntruction = true;
 
-        if (isStartedPlayingIntruction)
-            if (!SoundManager.Instance.UIAudioSource.isPlaying) {
-                SoundManager.Instance.playUISound(pairsAudios[currentAudioClip].Clip);
-                currentAudioClip = Mathf.Min(currentAudioClip+1, pairsAudios.Count);
-            }
+        // if (isStartedPlayingIntruction)
+        //     if (!SoundManager.Instance.UIAudioSource.isPlaying) {
+        //         SoundManager.Instance.playUISound(pairsAudios[currentAudioClip].Clip);
+        //         currentAudioClip = Mathf.Min(currentAudioClip+1, pairsAudios.Count);
+        //     }
         
+        //play audio instruction, the speed is acoording to how many level player passed
+        if (isStartedPlayingIntruction) {
+            switch (GameManager.Instance.levelPassedCount) {
+                case 0:
+                case 1:
+                case 2:
+                    if (!SoundManager.Instance.UIAudioSource.isPlaying) {
+                        SoundManager.Instance.playUISound(pairsAudios[currentAudioClip].Clips, 0);
+                        currentAudioClip = Mathf.Min(currentAudioClip+1, pairsAudios.Count);
+                    }
+                    break;
+
+                case 3:
+                case 4:
+                case 5:
+                    if (!SoundManager.Instance.UIAudioSource.isPlaying) {
+                        SoundManager.Instance.playUISound(pairsAudios[currentAudioClip].Clips, 1);
+                        currentAudioClip = Mathf.Min(currentAudioClip+1, pairsAudios.Count);
+                    }
+                    break;
+                
+                case 6:
+                case 7:
+                case 8:
+                    if (!SoundManager.Instance.UIAudioSource.isPlaying) {
+                        SoundManager.Instance.playUISound(pairsAudios[currentAudioClip].Clips, 2);
+                        currentAudioClip = Mathf.Min(currentAudioClip+1, pairsAudios.Count);
+                    }
+                    break;
+                
+                default:
+                    if (!SoundManager.Instance.UIAudioSource.isPlaying) {
+                        SoundManager.Instance.playUISound(pairsAudios[currentAudioClip].Clips, 2);
+                        currentAudioClip = Mathf.Min(currentAudioClip+1, pairsAudios.Count);
+                    }
+                    break;
+            }
+        }
+
+
         if (currentAudioClip >= pairsAudios.Count) {
             isAllAudioFinished = true;
             isStartedPlayingIntruction = false;
@@ -95,7 +137,7 @@ public class InstructionLevel : LevelBase
             case "Game3_1":
             case "Game3_2":
             case "Game3_3":
-                instruction = "Speel The Word And Wait!";
+                instruction = "Spell The Word And Wait!";
             break;
         }
         instructionText.text = instruction;

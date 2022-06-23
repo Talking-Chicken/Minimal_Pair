@@ -19,13 +19,19 @@ public class SoundManager : Singleton<SoundManager>
     
     void Update()
     {
-        UIAudioSource.pitch = AudioSpeed;
-        pitchBendGroup.audioMixer.SetFloat("PitchBend", 1f / AudioSpeed);
+        //UIAudioSource.pitch = AudioSpeed;
+        //pitchBendGroup.audioMixer.SetFloat("PitchBend", 1f / AudioSpeed);
     }
 
     public void playUISound(AudioClip audioClip) {
         UIAudioSource.loop = false;
         UIAudioSource.clip = audioClip;
+        UIAudioSource.Play();
+    }
+
+    public void playUISound(AudioClip[] audioClips, int clipIndex) {
+        UIAudioSource.loop = false;
+        UIAudioSource.clip = audioClips[clipIndex];
         UIAudioSource.Play();
     }
 

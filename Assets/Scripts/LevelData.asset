@@ -17,33 +17,77 @@ MonoBehaviour:
     pairs:
     - audioName: Beat
       clip: {fileID: 8300000, guid: 7b911898b214f0d469747dbacbb3aa8d, type: 3}
+      clips:
+      - {fileID: 8300000, guid: 7b911898b214f0d469747dbacbb3aa8d, type: 3}
+      - {fileID: 8300000, guid: 387a936b6fe3442409e0eb26a1552201, type: 3}
+      - {fileID: 8300000, guid: fd7b9772c36d70147aebdde5711bfc67, type: 3}
     - audioName: Dose
       clip: {fileID: 8300000, guid: 5fe1ffbddce94a7499955cea89e44021, type: 3}
+      clips:
+      - {fileID: 8300000, guid: 5fe1ffbddce94a7499955cea89e44021, type: 3}
+      - {fileID: 8300000, guid: ea25753e84c007542b617a657033e4b3, type: 3}
+      - {fileID: 8300000, guid: 915551e0e8b69314d8ca1ea0a708294f, type: 3}
     - audioName: They
       clip: {fileID: 8300000, guid: e8b3f55e7558bb44a9c249656df08959, type: 3}
+      clips:
+      - {fileID: 8300000, guid: e8b3f55e7558bb44a9c249656df08959, type: 3}
+      - {fileID: 8300000, guid: e36ab153263a0674e873cbd32568c568, type: 3}
+      - {fileID: 8300000, guid: 0d0a973ba3fdfc14eb69de0154a08e83, type: 3}
   - levelName: Game1_2
     pairs:
     - audioName: Hit
       clip: {fileID: 8300000, guid: 11c6b2e32db282e49ad3802b696104c7, type: 3}
+      clips:
+      - {fileID: 8300000, guid: 11c6b2e32db282e49ad3802b696104c7, type: 3}
+      - {fileID: 8300000, guid: 5ffc1324647ded44e90ce3279f961f61, type: 3}
+      - {fileID: 8300000, guid: bb5282f45b10684448686e2ebf973aba, type: 3}
     - audioName: Crip
       clip: {fileID: 8300000, guid: 323b0dfb3dcb2564f8dd58d7d1cf142e, type: 3}
+      clips:
+      - {fileID: 8300000, guid: 323b0dfb3dcb2564f8dd58d7d1cf142e, type: 3}
+      - {fileID: 8300000, guid: 596bbd460cbc2a547b2c414b782ced54, type: 3}
+      - {fileID: 8300000, guid: ff0f3b9ff22d7944eb4db4379ee2788e, type: 3}
     - audioName: Seat
       clip: {fileID: 8300000, guid: 82cc82ca7bbf38a4db74396dd6367efd, type: 3}
+      clips:
+      - {fileID: 8300000, guid: 82cc82ca7bbf38a4db74396dd6367efd, type: 3}
+      - {fileID: 8300000, guid: 95b6231ed680e8043a617af899718722, type: 3}
+      - {fileID: 8300000, guid: feec6b7254620c24c971f10978f6838a, type: 3}
     - audioName: Beat
       clip: {fileID: 8300000, guid: 7b911898b214f0d469747dbacbb3aa8d, type: 3}
+      clips:
+      - {fileID: 8300000, guid: 7b911898b214f0d469747dbacbb3aa8d, type: 3}
+      - {fileID: 8300000, guid: 387a936b6fe3442409e0eb26a1552201, type: 3}
+      - {fileID: 8300000, guid: fd7b9772c36d70147aebdde5711bfc67, type: 3}
   - levelName: Game2_1
     pairs:
     - audioName: Hit
       clip: {fileID: 8300000, guid: 11c6b2e32db282e49ad3802b696104c7, type: 3}
+      clips:
+      - {fileID: 8300000, guid: 11c6b2e32db282e49ad3802b696104c7, type: 3}
+      - {fileID: 8300000, guid: 5ffc1324647ded44e90ce3279f961f61, type: 3}
+      - {fileID: 8300000, guid: bb5282f45b10684448686e2ebf973aba, type: 3}
   - levelName: Game2_2
     pairs:
     - audioName: Dose
       clip: {fileID: 8300000, guid: 5fe1ffbddce94a7499955cea89e44021, type: 3}
+      clips:
+      - {fileID: 8300000, guid: 5fe1ffbddce94a7499955cea89e44021, type: 3}
+      - {fileID: 8300000, guid: ea25753e84c007542b617a657033e4b3, type: 3}
+      - {fileID: 8300000, guid: 915551e0e8b69314d8ca1ea0a708294f, type: 3}
   - levelName: Game2_3
     pairs:
     - audioName: Crip
       clip: {fileID: 8300000, guid: 323b0dfb3dcb2564f8dd58d7d1cf142e, type: 3}
+      clips:
+      - {fileID: 8300000, guid: 323b0dfb3dcb2564f8dd58d7d1cf142e, type: 3}
+      - {fileID: 8300000, guid: 596bbd460cbc2a547b2c414b782ced54, type: 3}
+      - {fileID: 8300000, guid: ff0f3b9ff22d7944eb4db4379ee2788e, type: 3}
   - levelName: Game3_1
     pairs:
     - audioName: There
       clip: {fileID: 8300000, guid: ec0bc406a3736d64fa73c99a0e50dff3, type: 3}
+      clips:
+      - {fileID: 8300000, guid: ec0bc406a3736d64fa73c99a0e50dff3, type: 3}
+      - {fileID: 8300000, guid: 7db3a01fe25e4b549960d705924ca6d4, type: 3}
+      - {fileID: 8300000, guid: 408c6358984677a43ab18d7607334062, type: 3}
